@@ -6,9 +6,15 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     object-fit: cover;
+    .empty-container {
+        height: 40vh;
+    }
+    .content-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     .hero-title {
         margin-top: 30px;
         color: $font-colorOne;
@@ -17,15 +23,19 @@
         line-height: $size-lineHeight;
         text-transform: uppercase;
         text-align: center;
+        align-content: center;
     }
     .hero-text {
         font-family: $font-secondary;
         font-size: $size-paragraph;
         color: $font-colorOne;
-        padding-bottom: 80px;
+        padding-bottom: 50px;
+        text-align: center;
     }
     .scroll-down-link {
         padding: 5px;
+        display: flex;
+        justify-content: center;
 
         .scroll-down-icon-container {
             width: 45px;
@@ -37,6 +47,7 @@
             align-items: center;
         }
     }
+}
 
 }
 
