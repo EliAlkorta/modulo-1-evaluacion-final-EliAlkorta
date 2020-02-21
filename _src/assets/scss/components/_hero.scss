@@ -1,0 +1,42 @@
+.container-hero { 
+    background: url("../images/cover.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    .hero-title {
+        margin-top: 30px;
+        color: $font-colorOne;
+        font-family: $font-primary;
+        font-size: $size-title;
+        line-height: $size-lineHeight;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .hero-text {
+        font-family: $font-secondary;
+        font-size: $size-paragraph;
+        color: $font-colorOne;
+        padding-bottom: 80px;
+    }
+    .scroll-down-link {
+        padding: 5px;
+
+        .scroll-down-icon-container {
+            width: 45px;
+            height: 45px;
+            background-color: white;
+            border-radius: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+}
+

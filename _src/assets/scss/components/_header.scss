@@ -1,3 +1,26 @@
 .page_header {
- 
+ background: transparent;
+ width: 100%;
+ margin: -10px;
+
+    .menu-link {
+        padding: 30px;
+    }
+    .icon-box {
+        background-color: #0271bc;
+        width: 44px;
+        height: 44px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+    .menu-icon {
+        width: 16px;
+        height: 14px;
+        color: white;
+        
+    }
+}
 }
