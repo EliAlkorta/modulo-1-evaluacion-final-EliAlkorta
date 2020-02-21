@@ -1,53 +1,52 @@
-.container-hero { 
-    background: url("../images/cover.jpg") no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
+.container-hero {
+  background: url("../images/cover.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  object-fit: cover;
+  .empty-container {
+    height: 40vh;
+  }
+  .content-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    object-fit: cover;
-    .empty-container {
-        height: 40vh;
-    }
-    .content-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+    justify-content: center;
     .hero-title {
-        margin-top: 30px;
-        color: $font-colorOne;
-        font-family: $font-primary;
-        font-size: $size-title;
-        line-height: $size-titleLineheight;
-        text-transform: uppercase;
-        text-align: center;
-        align-content: center;
+      margin-top: 30px;
+      color: $font-colorOne;
+      font-family: $font-primary;
+      font-size: $size-title;
+      line-height: $size-titleLineheight;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-align: center;
+      align-content: center;
     }
     .hero-text {
-        font-family: $font-secondary;
-        font-size: $size-subtitle;
-        color: $font-colorOne;
-        padding-bottom: 50px;
-        text-align: center;
+      font-family: $font-secondary;
+      font-size: $size-subtitle;
+      color: $font-colorOne;
+      padding-bottom: 50px;
+      text-align: center;
     }
     .scroll-down-link {
-        padding: 5px;
+      padding: 5px;
+      display: flex;
+      justify-content: center;
+
+      .scroll-down-icon-container {
+        width: 45px;
+        height: 45px;
+        background-color: $background-colorOne;
+        border-radius: 100%;
         display: flex;
         justify-content: center;
-
-        .scroll-down-icon-container {
-            width: 45px;
-            height: 45px;
-            background-color: $background-colorOne;
-            border-radius: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+        align-items: center;
+      }
     }
+  }
 }
-
-}
-

@@ -1,0 +1,98 @@
+.container-section2 {
+  height: 624px;
+  background-color: #eff9ff;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 0.5fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  .section2-title-box {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    .section2-title {
+      text-align: center;
+      text-transform: capitalize;
+      font-family: $font-primary;
+      font-weight: bold;
+      color: $font-colorTwo;
+      font-size: $size-secondaryTitle;
+      line-height: $size-paragraphLineheight;
+    }
+  }
+}
+.article1-box {
+  grid-column: 2/3;
+  grid-row: 2/4;
+  .article1-title {
+    text-align: center;
+    font-family: $font-primary;
+    font-weight: bold;
+    font-size: $size-paragraph;
+    color: $font-colorTwo;
+    line-height: $size-paragraphLineheight;
+    margin: 0;
+  }
+  .article1-text {
+    margin: 0;
+    text-align: center;
+    font-family: $font-secondary;
+    font-size: $size-paragraph;
+    color: $font-colorTwo;
+    line-height: $size-paragraphLineheight;
+  }
+}
+.article2-box {
+  grid-column: 2/3;
+  grid-row: 4/6;
+  .article2-title {
+    margin: 0;
+    text-align: center;
+    font-family: $font-primary;
+    font-weight: bold;
+    font-size: $size-paragraph;
+    color: $font-colorTwo;
+    line-height: $size-paragraphLineheight;
+  }
+  .article2-text {
+    margin: 0;
+    text-align: center;
+    font-family: $font-secondary;
+    font-size: $size-paragraph;
+    color: $font-colorTwo;
+    line-height: $size-paragraphLineheight;
+  }
+}
+.article3-box {
+  grid-column: 2/3;
+  grid-row: 6/8;
+  .article3-title {
+    margin: 0;
+    text-align: center;
+    font-family: $font-primary;
+    font-weight: bold;
+    font-size: $size-paragraph;
+    color: $font-colorTwo;
+    line-height: $size-paragraphLineheight;
+  }
+  .article3-text {
+    margin: 0;
+    text-align: center;
+    font-family: $font-secondary;
+    font-size: $size-paragraph;
+    color: $font-colorTwo;
+    line-height: $size-paragraphLineheight;
+  }
+}
+.section2-button {
+  margin-bottom: 50px;
+  grid-column: 2/3;
+  grid-row: 8/9;
+  background-color: $button-color;
+  width: 184px;
+  height: 45px;
+  text-align: center;
+  border-radius: 22.5px;
+  border: 2px solid $background-colorOne;
+  display: inline-block;
+  font-size: 20px;
+}
