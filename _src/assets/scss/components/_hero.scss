@@ -20,14 +20,14 @@
         color: $font-colorOne;
         font-family: $font-primary;
         font-size: $size-title;
-        line-height: $size-lineHeight;
+        line-height: $size-titleLineheight;
         text-transform: uppercase;
         text-align: center;
         align-content: center;
     }
     .hero-text {
         font-family: $font-secondary;
-        font-size: $size-paragraph;
+        font-size: $size-subtitle;
         color: $font-colorOne;
         padding-bottom: 50px;
         text-align: center;
@@ -40,7 +40,7 @@
         .scroll-down-icon-container {
             width: 45px;
             height: 45px;
-            background-color: white;
+            background-color: $background-colorOne;
             border-radius: 100%;
             display: flex;
             justify-content: center;
