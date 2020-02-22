@@ -88,6 +88,8 @@
   grid-column: 2/3;
   grid-row: 8/9;
   background-color: $button-color;
+  color: $font-colorOne;
+  font-family: $font-secondary;
   width: 184px;
   height: 45px;
   text-align: center;
@@ -95,4 +97,11 @@
   border: 2px solid $background-colorOne;
   display: inline-block;
   font-size: 20px;
+  transition-duration: 0.5s;
+
+  &:hover {
+    background-color: #304268;
+    color: $background-colorOne;
+    border-color: $background-colorOne;
+  }
 }
