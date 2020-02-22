@@ -6,7 +6,7 @@
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   @media (min-width: 768px) {
     height: 100%;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
   }
   .section2-title-box {
@@ -15,7 +15,7 @@
     margin-bottom: 20px;
     margin-top: 30px;
     @media (min-width: 768px) {
-      grid-column: 4/8;
+      grid-column: 5/11;
       grid-row: 1/2;
     }
     .section2-title {
@@ -29,16 +29,17 @@
       @media (min-width: 768px) {
         font-size: $size-secondaryTitletablet;
         line-height: 45px;
+      }
     }
-  }
   }
 }
 .article1-box {
   grid-column: 2/3;
   grid-row: 2/4;
   @media (min-width: 768px) {
-    grid-column: 2/4;
+    grid-column: 2/5;
     grid-row: 2/3;
+   
   }
   .article1-title {
     text-align: center;
@@ -51,8 +52,8 @@
     @media (min-width: 768px) {
       font-size: $size-secondaryTitle;
       margin-bottom: 14px;
+    }
   }
-}
   .article1-text {
     margin: 0;
     text-align: center;
@@ -62,15 +63,17 @@
     line-height: $size-paragraphLineheight;
     @media (min-width: 768px) {
       font-size: $size-paragraphTablet;
+    }
   }
-}
 }
 .article2-box {
   grid-column: 2/3;
   grid-row: 4/6;
+
   @media (min-width: 768px) {
-    grid-column: 5/7;
+    grid-column: 6/10;
     grid-row: 2/3;
+  
   }
   .article2-title {
     margin: 0;
@@ -83,7 +86,7 @@
     @media (min-width: 768px) {
       font-size: $size-secondaryTitle;
       margin-bottom: 14px;
-  }
+    }
   }
   .article2-text {
     margin: 0;
@@ -94,14 +97,14 @@
     line-height: $size-paragraphLineheight;
     @media (min-width: 768px) {
       font-size: $size-paragraphTablet;
-  }
+    }
   }
 }
 .article3-box {
   grid-column: 2/3;
   grid-row: 6/8;
   @media (min-width: 768px) {
-    grid-column: 8/10;
+    grid-column: 11/14;
     grid-row: 2/3;
   }
   .article3-title {
@@ -115,7 +118,7 @@
     @media (min-width: 768px) {
       font-size: $size-secondaryTitle;
       margin-bottom: 14px;
-  }
+    }
   }
   .article3-text {
     margin: 0;
@@ -126,7 +129,7 @@
     line-height: $size-paragraphLineheight;
     @media (min-width: 768px) {
       font-size: $size-paragraphTablet;
-  }
+    }
   }
 }
 .section2-button {
@@ -145,10 +148,10 @@
   font-size: 20px;
   transition-duration: 0.5s;
   @media (min-width: 768px) {
-    grid-column: 5/7;
+    grid-column: 6/9;
     grid-row: 3/4;
-    width: 160px;
-    margin-top: 50px;
+    width: 210px;
+    margin-top: 20px;
     margin-bottom: 30px;
   }
 
