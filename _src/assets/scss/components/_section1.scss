@@ -1,6 +1,10 @@
 .container-section1 {
   margin-right: 15px;
   margin-left: 15px;
+  @media all and (min-width: 768px) {
+    margin-right: 39px;
+    margin-left: 39px;
+  }
 
   .mini-title {
     font-family: $font-secondary;
@@ -20,6 +24,9 @@
     text-transform: capitalize;
     margin-top: 0;
     margin-bottom: 0;
+    @media all and (min-width: 768px) {
+      font-size: $size-secondaryTitletablet;
+    }
   }
   .text-section1 {
     text-align: justify;
@@ -27,6 +34,12 @@
     font-size: $size-paragraph;
     color: $paragraph-color;
     line-height: $size-paragraphLineheight;
+    @media all and (min-width: 768px) {
+      font-size: $size-paragraphTablet;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      margin-right: 50px;
+    }
   }
   .section1-button {
     background-color: $background-colorOne;
@@ -41,6 +54,9 @@
     font-family: $font-secondary;
     margin-bottom: 45px;
     transition-duration: 0.5s;
+    @media all and (min-width: 768px) {
+      margin-bottom: 60px;
+    }
     &:hover {
       background-color: #8ccbea;
       color: $background-colorOne;
