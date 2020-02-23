@@ -5,62 +5,79 @@
     margin-right: 39px;
     margin-left: 39px;
   }
-
-  .mini-title {
-    font-family: $font-secondary;
-    color: #8ccbea;
-    font-size: $size-miniTitle;
-    margin-top: 30px;
-    margin-bottom: 5px;
-    line-height: $size-paragraphLineheight;
+  @media all and (min-width: 1200px) {
+    max-width: 1200px;
+    margin: auto;
   }
-
-  .section1-title {
-    font-family: $font-primary;
-    font-size: $size-secondaryTitle;
-    color: $font-colorTwo;
-    line-height: $size-paragraphLineheight;
-    font-weight: bold;
-    text-transform: capitalize;
-    margin-top: 0;
-    margin-bottom: 0;
-    @media all and (min-width: 768px) {
-      font-size: $size-secondaryTitletablet;
+  .content-section1 {
+    @media all and (min-width: 1200px) {
+      margin: 60px 230px 0 230px;
     }
-  }
-  .text-section1 {
-    text-align: justify;
-    font-family: $font-secondary;
-    font-size: $size-paragraph;
-    color: $paragraph-color;
-    line-height: $size-paragraphLineheight;
-    @media all and (min-width: 768px) {
-      font-size: $size-paragraphTablet;
+    .mini-title {
+      font-family: $font-secondary;
+      color: #8ccbea;
+      font-size: $size-miniTitle;
       margin-top: 30px;
-      margin-bottom: 30px;
-      margin-right: 50px;
+      margin-bottom: 5px;
+      line-height: $size-paragraphLineheight;
+      @media all and (min-width: 1200px) {
+        font-size: $size-subtitle;
     }
   }
-  .section1-button {
-    background-color: $background-colorOne;
-    width: 76px;
-    height: 45px;
-    text-align: center;
-    border-radius: 22.5px;
-    border: 2px solid $button-color;
-    display: inline-block;
-    color: $button-color;
-    font-size: 20px;
-    font-family: $font-secondary;
-    margin-bottom: 45px;
-    transition-duration: 0.5s;
-    @media all and (min-width: 768px) {
-      margin-bottom: 60px;
+    .section1-title {
+      font-family: $font-primary;
+      font-size: $size-secondaryTitle;
+      color: $font-colorTwo;
+      line-height: $size-paragraphLineheight;
+      font-weight: bold;
+      text-transform: capitalize;
+      margin-top: 0;
+      margin-bottom: 0;
+      @media all and (min-width: 768px) {
+        font-size: $size-secondaryTitletablet;
+      }
+      @media all and (min-width: 1200px) {
+        font-size: $size-secondaryTitlelaptop;
     }
-    &:hover {
-      background-color: #8ccbea;
-      color: $background-colorOne;
-      border-color: $background-colorOne;
+  }
+    .text-section1 {
+      text-align: justify;
+      font-family: $font-secondary;
+      font-size: $size-paragraph;
+      color: $paragraph-color;
+      line-height: $size-paragraphLineheight;
+      @media all and (min-width: 768px) {
+        font-size: $size-paragraphTablet;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-right: 50px;
+      }
+    }
+    .section1-button {
+      background-color: $background-colorOne;
+      width: 76px;
+      height: 45px;
+      text-align: center;
+      border-radius: 22.5px;
+      border: 2px solid $button-color;
+      display: inline-block;
+      color: $button-color;
+      font-size: 20px;
+      font-family: $font-secondary;
+      margin-bottom: 45px;
+      transition-duration: 0.5s;
+      @media all and (min-width: 768px) {
+        margin-bottom: 60px;
+      }
+      @media all and (min-width: 1200px) {
+        width: 160px;
+      }
+
+      &:hover {
+        background-color: #8ccbea;
+        color: $background-colorOne;
+        border-color: $background-colorOne;
+      }
     }
   }
 }
