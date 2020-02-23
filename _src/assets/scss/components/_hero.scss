@@ -19,77 +19,79 @@
     width: 100%;
   }
 }
-  .empty-container {
-    height: 45vh;
-    @media all and (min-width: 768px) {
-      height: 33vh;
-    }
-    @media all and (min-width: 1200px) {
-      height: 45vh;
-    }
+.empty-container {
+  height: 45vh;
+  @media all and (min-width: 768px) {
+    height: 33vh;
   }
-  .content-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    @media all and (min-width: 1200px) {
-      height: 50vh;
-    }
-    
-    .hero-title {
-      margin-top: 30px;
-      color: $font-colorOne;
-      font-family: $font-primary;
-      font-size: $size-title;
-      line-height: $size-titleLineheight;
-      font-weight: bold;
-      text-transform: uppercase;
-      text-align: center;
-      align-content: center;
-      margin-bottom: 0;
-      @media all and (min-width: 768px) {
-        font-size: $size-largeTitle;
-        line-height: $size-largeTitlelineHeight;
-      }
-      @media all and (min-width: 1200px) {
-        font-size: $size-extraLargetitle;
-        line-height: $size-extraLargetitleLineheight;
-        margin-top: 0;
-      }
-    }
-    .hero-text {
-      font-family: $font-secondary;
-      font-size: $size-subtitle;
-      color: $font-colorOne;
-      padding-bottom: 40px;
-      text-align: center;
-      @media all and (min-width: 768px) {
-        font-size: $size-secondaryTitle;
-        padding-bottom: 10px;
-      }
-      @media all and (min-width: 1200px) {
-        margin-top: 0;
-      }
-    }
-    .scroll-down-link {
-      display: flex;
-      justify-content: center;
-      @media all and (min-width: 768px) {
-        padding-bottom: 45px;
-      }
-      @media all and (min-width: 1200px) {
-        padding-bottom: 0;
-      }
-    
-      .scroll-down-icon-container {
-        width: 45px;
-        height: 45px;
-        background-color: $background-colorOne;
-        border-radius: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-    }
+  @media all and (min-width: 1200px) {
+    height: 45vh;
+  }
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  @media all and (min-width: 1200px) {
+    height: 50vh;
   }
 
+  .hero-title {
+    margin-top: 30px;
+    color: $font-colorOne;
+    font-family: $font-primary;
+    font-size: $size-title;
+    line-height: $size-titleLineheight;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    align-content: center;
+    margin-bottom: 0;
+    @media all and (min-width: 768px) {
+      font-size: $size-largeTitle;
+      line-height: $size-largeTitlelineHeight;
+    }
+    @media all and (min-width: 1200px) {
+      font-size: $size-extraLargetitle;
+      line-height: $size-extraLargetitleLineheight;
+      margin-top: 0;
+    }
+  }
+  .hero-text {
+    font-family: $font-secondary;
+    font-size: $size-subtitle;
+    color: $font-colorOne;
+    padding-bottom: 40px;
+    text-align: center;
+    @media all and (min-width: 768px) {
+      font-size: $size-secondaryTitle;
+      padding-bottom: 10px;
+    }
+    @media all and (min-width: 1200px) {
+      margin-top: 0;
+    }
+  }
+  .scroll-down-link {
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    align-self: center;
+    @media all and (min-width: 768px) {
+      margin-bottom: 45px;
+    }
+    @media all and (min-width: 1200px) {
+      padding-bottom: 0;
+      margin-bottom: 0;
+    }
+    .scroll-down-icon-container {
+      width: 45px;
+      height: 45px;
+      background-color: $background-colorOne;
+      border-radius: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
