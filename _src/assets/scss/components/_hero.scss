@@ -14,10 +14,16 @@
     height: 100%;
     width: 100%;
   }
+  @media all and (min-width:1200px) {
+    background-size: cover;
+  }
   .empty-container {
     height: 45vh;
     @media all and (min-width: 768px) {
       height: 33vh;
+  }
+  @media all and (min-width:1200px) {
+      height: 45vh;
   }
 }
   .content-container {
@@ -39,7 +45,12 @@
         font-size: $size-largeTitle;
         line-height: $size-largeTitlelineHeight;
       }
+      @media all and (min-width:1200px) {
+        font-size: $size-extraLargetitle;
+        line-height: $size-extraLargetitleLineheight;
+        margin-top: 0;  
     }
+  }
     .hero-text {
       font-family: $font-secondary;
       font-size: $size-subtitle;
@@ -49,13 +60,16 @@
       @media all and (min-width: 768px) {
         font-size: $size-secondaryTitle;
         padding-bottom: 10px;
-    }
+      }
   }
     .scroll-down-link {
       display: flex;
       justify-content: center;
       @media all and (min-width: 768px) {
         padding-bottom: 45px;
+      }
+      @media all and (min-width:1200px) {
+        padding-bottom: 13px;
       }
       .scroll-down-icon-container {
         width: 45px;

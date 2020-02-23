@@ -141,6 +141,7 @@
     grid-column: 7/9;
     grid-row: 3/4;
   }
+}
   .section2-button {
     margin-bottom: 60px;
     background-color: $button-color;
@@ -158,10 +159,10 @@
       width: 210px;
       margin-top: 10px;
     }
-  }
   &:hover {
     background-color: #304268;
     color: $background-colorOne;
     border-color: $background-colorOne;
   }
-}
+  }
+
