@@ -31,7 +31,7 @@
 .scroll-up-link {
   display: flex;
   justify-content: center;
-  
+
   .scroll-up-icon-container {
     @include icon-container;
     background-color: $background-colorOne;
@@ -43,22 +43,22 @@
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     @keyframes pulse {
-        from {
-          transform: scale3d(1, 1, 1);
-          background-color: $background-colorOne;
-        }
-      
-        50% {
-          transform: scale3d(1.05, 1.05, 1.05);
-        }
-      
-        to {
-          transform: scale3d(1, 1, 1);
-          background-color: #304268;
-        }
+      from {
+        transform: scale3d(1, 1, 1);
+        background-color: $background-colorOne;
+      }
+
+      50% {
+        transform: scale3d(1.05, 1.05, 1.05);
+      }
+
+      to {
+        transform: scale3d(1, 1, 1);
+        background-color: #304268;
       }
     }
   }
+}
 
 .content-container-footer {
   @media all and (min-width: 768px) {
@@ -80,10 +80,10 @@
     margin-bottom: 45px;
     padding-right: 70px;
   }
-    @media all and (min-width: 1200px) {
+  @media all and (min-width: 1200px) {
     padding-right: 0;
-    }
   }
+}
 
 .social-networks {
   @include footerMenus;

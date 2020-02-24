@@ -22,12 +22,12 @@
       line-height: $size-paragraphLineheight;
       @media all and (min-width: 1200px) {
         font-size: $size-subtitle;
+      }
     }
-  }
     .section1-title {
       @include sectionTitle;
       margin-top: 0;
-  }
+    }
     .text-section1 {
       @include sectionText;
       color: $paragraph-color;
