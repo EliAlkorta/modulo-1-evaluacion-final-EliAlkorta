@@ -25,46 +25,23 @@
     }
   }
     .section1-title {
-      font-family: $font-primary;
-      font-size: $size-secondaryTitle;
-      color: $font-colorTwo;
-      line-height: $size-paragraphLineheight;
-      font-weight: bold;
-      text-transform: capitalize;
+      @include sectionTitle;
       margin-top: 0;
-      margin-bottom: 0;
-      @media all and (min-width: 768px) {
-        font-size: $size-secondaryTitletablet;
-      }
-      @media all and (min-width: 1200px) {
-        font-size: $size-secondaryTitlelaptop;
-    }
   }
     .text-section1 {
-      text-align: justify;
-      font-family: $font-secondary;
-      font-size: $size-paragraph;
+      @include sectionText;
       color: $paragraph-color;
-      line-height: $size-paragraphLineheight;
+      text-align: justify;
       @media all and (min-width: 768px) {
-        font-size: $size-paragraphTablet;
         margin-top: 30px;
         margin-bottom: 30px;
         margin-right: 50px;
       }
     }
     .section1-button {
-      background-color: $background-colorOne;
+      @include button;
       width: 76px;
       height: 45px;
-      text-align: center;
-      border-radius: 22.5px;
-      border: 2px solid $button-color;
-      display: inline-block;
-      color: $button-color;
-      font-size: 20px;
-      font-weight: 500;
-      font-family: $font-secondary;
       margin-bottom: 45px;
       transition-duration: 0.5s;
       @media all and (min-width: 768px) {

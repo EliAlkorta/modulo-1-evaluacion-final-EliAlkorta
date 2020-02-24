@@ -27,20 +27,12 @@
       grid-row: 1/2;
     }
     .section2-title {
+      @include sectionTitle;
       text-align: center;
-      text-transform: capitalize;
-      font-family: $font-primary;
-      font-weight: bold;
-      color: $font-colorTwo;
-      font-size: $size-secondaryTitle;
-      line-height: $size-paragraphLineheight;
       @media (min-width: 768px) {
-        font-size: $size-secondaryTitletablet;
         line-height: 45px;
       }
-      @media all and (min-width: 1200px) {
-        font-size: $size-secondaryTitlelaptop;
-    }
+     
   }
 }
 }
@@ -52,30 +44,15 @@
     grid-row: 2/3;
   }
   .article1-title {
-    text-align: center;
-    font-family: $font-primary;
-    font-weight: bold;
-    font-size: $size-paragraph;
-    color: $font-colorTwo;
-    line-height: $size-paragraphLineheight;
-    margin: 0;
-    @media (min-width: 768px) {
-      font-size: $size-secondaryTitle;
-      margin-bottom: 14px;
-    }
+    @include section2Subtitles;
   }
   .article1-text {
     margin: 0;
-    text-align: center;
-    font-family: $font-secondary;
-    font-size: $size-paragraph;
     color: $font-colorTwo;
-    line-height: $size-paragraphLineheight;
-    @media (min-width: 768px) {
-      font-size: $size-paragraphTablet;
+    text-align: center;
+   @include sectionText;
     }
   }
-}
 .article2-box {
   grid-column: 2/3;
   grid-row: 4/6;
@@ -85,28 +62,13 @@
     grid-row: 2/3;
   }
   .article2-title {
-    margin: 0;
-    text-align: center;
-    font-family: $font-primary;
-    font-weight: bold;
-    font-size: $size-paragraph;
-    color: $font-colorTwo;
-    line-height: $size-paragraphLineheight;
-    @media (min-width: 768px) {
-      font-size: $size-secondaryTitle;
-      margin-bottom: 14px;
-    }
+   @include section2Subtitles;
   }
   .article2-text {
     margin: 0;
-    text-align: center;
-    font-family: $font-secondary;
-    font-size: $size-paragraph;
+    @include sectionText;
     color: $font-colorTwo;
-    line-height: $size-paragraphLineheight;
-    @media (min-width: 768px) {
-      font-size: $size-paragraphTablet;
-    }
+    text-align: center;
   }
 }
 .article3-box {
@@ -117,28 +79,13 @@
     grid-row: 2/3;
   }
   .article3-title {
-    margin: 0;
-    text-align: center;
-    font-family: $font-primary;
-    font-weight: bold;
-    font-size: $size-paragraph;
-    color: $font-colorTwo;
-    line-height: $size-paragraphLineheight;
-    @media (min-width: 768px) {
-      font-size: $size-secondaryTitle;
-      margin-bottom: 14px;
-    }
+    @include section2Subtitles;
   }
   .article3-text {
     margin: 0;
-    text-align: center;
-    font-family: $font-secondary;
-    font-size: $size-paragraph;
+    @include sectionText;
     color: $font-colorTwo;
-    line-height: $size-paragraphLineheight;
-    @media (min-width: 768px) {
-      font-size: $size-paragraphTablet;
-    }
+    text-align: center;
   }
 }
 .button-container {
@@ -154,18 +101,10 @@
   }
 }
 .section2-button {
+  @include button;
   margin-bottom: 60px;
-  background-color: $button-color;
-  color: $font-colorOne;
-  font-family: $font-secondary;
   width: 184px;
   height: 45px;
-  text-align: center;
-  border-radius: 22.5px;
-  border: 2px solid $background-colorOne;
-  display: inline-block;
-  font-size: 20px;
-  font-weight: 500;
   transition-duration: 0.5s;
   @media (min-width: 768px) {
     width: 210px;

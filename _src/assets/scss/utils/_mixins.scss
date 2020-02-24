@@ -1,0 +1,63 @@
+@mixin icon-container {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin button {
+  background-color: $button-color;
+  color: $font-colorOne;
+  font-family: $font-secondary;
+  text-align: center;
+  border-radius: 22.5px;
+  border: 2px solid $button-color;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 20px;
+}
+@mixin sectionTitle {
+  font-family: $font-primary;
+  font-size: $size-secondaryTitle;
+  color: $font-colorTwo;
+  line-height: $size-paragraphLineheight;
+  font-weight: bold;
+  text-transform: capitalize;
+  @media all and (min-width: 768px) {
+    font-size: $size-secondaryTitletablet;
+  }
+  @media all and (min-width: 1200px) {
+    font-size: $size-secondaryTitlelaptop;
+  }
+}
+@mixin sectionText {
+  font-family: $font-secondary;
+  font-size: $size-paragraph;
+  line-height: $size-paragraphLineheight;
+  @media all and (min-width: 768px) {
+    font-size: $size-paragraphTablet;
+  }
+}
+@mixin section2Subtitles {
+  text-align: center;
+  font-family: $font-primary;
+  font-weight: bold;
+  font-size: $size-paragraph;
+  color: $font-colorTwo;
+  line-height: $size-paragraphLineheight;
+  margin: 0;
+  @media (min-width: 768px) {
+    font-size: $size-secondaryTitle;
+    margin-bottom: 14px;
+  }
+}
+@mixin footerMenus {
+  text-align: center;
+  font-size: $size-subtitle;
+  line-height: $size-paragraphLineheight;
+  margin-bottom: 20px;
+  @media all and (min-width: 768px) {
+    display: flex;
+    text-align: justify;
+  }
+}

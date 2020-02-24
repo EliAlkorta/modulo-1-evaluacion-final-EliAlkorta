@@ -33,13 +33,9 @@
   justify-content: center;
   
   .scroll-up-icon-container {
-    width: 45px;
-    height: 45px;
+    @include icon-container;
     background-color: $background-colorOne;
     border-radius: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     position: relative;
     bottom: 25px;
     animation-name: pulse;
@@ -78,16 +74,11 @@
   }
 }
 .footer-menu {
-  text-align: center;
-  font-size: $size-subtitle;
-  line-height: $size-paragraphLineheight;
-  margin-bottom: 20px;
+  @include footerMenus;
   @media all and (min-width: 768px) {
-    display: flex;
     order: 2;
     margin-bottom: 45px;
     padding-right: 70px;
-    text-align: justify;
   }
     @media all and (min-width: 1200px) {
     padding-right: 0;
@@ -95,14 +86,9 @@
   }
 
 .social-networks {
-  text-align: center;
-  font-size: $size-subtitle;
-  line-height: $size-paragraphLineheight;
-  margin-bottom: 20px;
+  @include footerMenus;
   @media all and (min-width: 768px) {
-    display: flex;
     order: 3;
-    text-align: justify;
     padding-right: 40px;
   }
 }

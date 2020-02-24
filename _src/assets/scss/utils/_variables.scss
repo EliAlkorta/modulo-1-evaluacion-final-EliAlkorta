@@ -1,10 +1,9 @@
+// Typography: font-families //
+
 $font-primary: 'Roboto Slab';
 $font-secondary: 'Roboto';
 
-$font-colorOne: white;
-$font-colorTwo: black;
-$paragraph-color: #4a4a4a;
-$button-color: #f26002;
+// Typography: font-sizes //
 
 $size-title: 42px;
 $size-largeTitle: 80px;
@@ -20,6 +19,15 @@ $size-titleLineheight: 55px;
 $size-largeTitlelineHeight: 106px;
 $size-extraLargetitleLineheight: 132px;
 $size-paragraphLineheight: 30px;
+
+// Font and button colors //
+
+$font-colorOne: white;
+$font-colorTwo: black;
+$paragraph-color: #4a4a4a;
+$button-color: #f26002;
+
+// Background-colors //
 
 $background-colorOne: white;
 $background-colorTwo: #eff9ff;

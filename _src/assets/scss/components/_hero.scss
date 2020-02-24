@@ -85,13 +85,9 @@
       margin-bottom: 0;
     }
     .scroll-down-icon-container {
-      width: 45px;
-      height: 45px;
+      @include icon-container;
       background-color: $background-colorOne;
       border-radius: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
     }
   }
 }
