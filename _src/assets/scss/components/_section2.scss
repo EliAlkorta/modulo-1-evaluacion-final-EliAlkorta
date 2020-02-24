@@ -38,8 +38,11 @@
         font-size: $size-secondaryTitletablet;
         line-height: 45px;
       }
+      @media all and (min-width: 1200px) {
+        font-size: $size-secondaryTitlelaptop;
     }
   }
+}
 }
 .article1-box {
   grid-column: 2/3;
@@ -162,6 +165,7 @@
   border: 2px solid $background-colorOne;
   display: inline-block;
   font-size: 20px;
+  font-weight: 500;
   transition-duration: 0.5s;
   @media (min-width: 768px) {
     width: 210px;

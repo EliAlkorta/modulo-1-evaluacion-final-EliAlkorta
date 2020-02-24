@@ -1,6 +1,6 @@
 .page_footer {
   background-color: #304268;
-  height: 430px;
+  height: 460px;
   @media all and (min-width: 768px) {
     height: 270px;
   }
@@ -95,6 +95,9 @@
     order: 1;
     padding-top: 20px;
     align-items: flex-start;
+  }
+  .copyright {
+    font-size: $size-miniTitle;
   }
   .signature {
     text-transform: lowercase;
